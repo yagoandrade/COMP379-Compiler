@@ -1,0 +1,13 @@
+program factorial;
+function fact(count: integer): integer;
+begin
+  if (<(count, 1)) then
+    fact := 1
+  else
+    fact := *(fact(count - 1),count);
+end;
+var
+  n: integer;
+begin
+    write(fact(4));
+end.

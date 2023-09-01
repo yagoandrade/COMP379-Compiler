@@ -1,0 +1,12 @@
+program LoopQuadrados;
+var y: integer;
+procedure Loop(count: integer);
+begin
+    if (<(n, 1)) then
+        Loop := 1
+    else
+        Loop := *(Loop(n - 1),n);
+end;
+begin
+  Loop(4);
+end.
